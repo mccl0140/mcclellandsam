@@ -1,0 +1,117 @@
+/*CUSTOM CSS*/
+
+/* Color Swatch
+
+#E8DACD-light tan
+#D4CEC2-tan
+#ACA298-light brown
+#4A4438-dark brown
+#B0C6D3-light blue
+*/
+
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cabin', sans-serif;
+	color: #4A4438;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+.fas {
+	color: #B0C6D3;
+}
+
+/*   HEADER   */
+.jumbotron {
+	background-color: #B0C6D3;
+}
+
+header nav {
+	background-color: #ACA298;
+}
+
+header .dropdown-menu {
+	background-color: #ACA298;
+}
+
+header .dropdown-menu a:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+/*   WEB   */
+
+#iframe {
+    width: 300px;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 	
+	#iframe {
+	    width: 500px;
+	    height: 500px;
+	    border: none;
+	    overflow: hidden;
+	} 
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+/*  FOOTER  */
+footer {
+	margin-top: 3em;
+	padding: 0.5em 0;
+	background-color: #4A4438;
+}
+
+footer p {
+	color: #B0C6D3;
+	padding-top: 0.5em;
+}
+/* unvisited link */
+footer a:link {
+	color: #B0C6D3;
+}
+
+/* visited link */
+footer a:visited {
+    color: #B0C6D3;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: #fff;
+}
+
+/* selected link */
+footer a:active {
+    color: #fff;
+}
